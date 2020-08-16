@@ -1,0 +1,27 @@
+{
+  "name": "sheevebot",
+  "version": "0.1.0",
+  "description": "Sheeve Bot for discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js",
+    "start:dev": "nodemon"
+  },
+  "keywords": [
+    "sheeve",
+    "bot"
+  ],
+  "author": "Alex Stout",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.9.14",
+    "ytdl-core": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}

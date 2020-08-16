@@ -1,0 +1,14 @@
+[Unit]
+Description=Sheev Bot Service
+After=docker.service
+Requires=docker.service
+
+[Service]
+ExecStart=/etc/init.d/start.sh
+ExecStop=/etc/init.d/start.sh
+TimeoutSec=30
+Restart=on-failure
+RestartSec=30
+
+[Install]
+WantedBy=multi-user.target
