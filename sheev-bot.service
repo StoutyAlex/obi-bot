@@ -1,5 +1,5 @@
 [Unit]
-Description=Sheev Bot Service
+Description=Obi Bot Service
 After=docker.service
 Requires=docker.service
 

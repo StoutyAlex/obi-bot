@@ -31,7 +31,7 @@ const handleCommand = (message) => {
   [ command, ...rest ] = commands.filter(command => command.canHandle(message, previousCommands));
   
   if (!command || !command.handle ) {
-    return message.channel.send('Invalid command');
+    return message.channel.send('I can only welcome');
   }
 
   const { id, username } = message.author;

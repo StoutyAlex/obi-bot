@@ -1,7 +1,7 @@
 {
-  "name": "sheevebot",
+  "name": "obibot",
   "version": "0.1.0",
-  "description": "Sheeve Bot for discord",
+  "description": "Obi Bot for discord",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -9,7 +9,7 @@
     "start:dev": "nodemon"
   },
   "keywords": [
-    "sheeve",
+    "obi",
     "bot"
   ],
   "author": "Alex Stout",
